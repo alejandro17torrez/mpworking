@@ -1,0 +1,44 @@
+.productoSeleccinado {
+    background-color: rgba(202, 41, 41, 0.61);
+}
+
+/*anchura del body y del documento al 100% */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* estilo a las tabs */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* estiliza el contenido de las tabs */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#comprobantes {
+    background-color: rgb(243, 157, 86);
+}
+
+#reportes_saldos {
+    background-color: rgb(152, 196, 152);
+}

@@ -1,0 +1,60 @@
+@media only screen and (min-width: 577px) {
+    .form-group.col-sm-6 {
+        margin-left: 25%;
+    }
+    .centrar {
+        text-align: center;
+    }
+    .table.col-sm-10 {
+        margin-left: 10%;
+    }
+
+    .table.col-sm-6 {
+        margin-left: 25%;
+    }
+
+    button.btn:nth-child(3) {
+        margin-left: 15%;
+        }
+}
+
+.ocultar {
+    visibility: hidden;
+}
+/*
+body {
+    background-color: rgb( 250, 250, 250 );
+}
+*/
+
+.texto {
+    resize: none;
+}
+
+.dropdown-item {
+    color:rgba(255,255,255,.5);
+}
+
+.productoSeleccinado {
+    background-color: rgba(202, 41, 41, 0.61);
+}
+
+button.btn:nth-child(3) {
+    margin-left: 5%;
+    }
+.dropdown-item:hover{
+    background-color: rgba(22, 99, 7, 0.432);
+    color: #ffffff;
+}
+.colorNavbar {
+    background-color: rgba(22, 99, 7, 0.678);
+}
+
+.nav-item>a:hover{
+    background-color: rgba(22, 99, 7, 0.432);
+    font-size: 1.1em;
+}
+
+.dropdown-item>span{
+    color: rgba(0, 0, 0, 0.644);
+}
